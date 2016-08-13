@@ -1,0 +1,1531 @@
+@charset "utf-8";
+:root{
+	font-size: 62.5%;
+	background-color: #fdfaf6;
+}
+/* 顶部开始 */
+.page_header{
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+	text-align: center;
+	min-width: 980px;
+}
+.page_header header{
+	width: 100%;
+	height: 33px;
+	background:url('../imgs/top_border.jpg') repeat;
+}
+.page_header img{
+	margin-top: 5px;
+}
+/* 顶部结束 */
+
+/* 导航栏开始 */
+.navbar{
+	width: 100%;
+	height: 43px;
+	text-align: center;
+	background-color: #724226;
+	min-width: 1100px;
+}
+.navbar ul li{
+	display: inline-block;
+	font-size: 1.6rem;
+	font-family: "微软雅黑";
+	width: 113px;
+	margin: 13px 0;
+}
+.navbar ul li:nth-child(even){
+	border-left: 1px solid #a6643e;
+	border-right: 1px solid #a6643e;
+}
+.navbar ul li a{
+	color: #eee;
+}
+/* 导航栏结束 */
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 385px;
+	background-color: #9e6442;
+}
+
+/* 10大关注焦点话题开始 */
+.main_page{
+	width: 980px;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.main_page>header{
+
+	margin-bottom: 10px;
+}
+.main_page>header div:empty{
+	clear: both;
+}
+.main_page>section{
+	margin-bottom: 10px;
+}
+.hot_topic{
+	width: 980px;
+	height: 125px;
+	background-color: #f7eae2;
+
+}
+.hot_topic ul{
+	margin: 5px 20px;
+}
+.hot_topic .title{
+	display: inline-block;
+}
+.hot_topic .title span:first-child{
+	font-size: 3.6rem;
+	color: #e2651b;
+	font-family: Georgia;
+}
+.hot_topic .title span:last-child{
+	font-size: 1.6rem;
+	color: #e2651b;
+	font-weight: bold;
+}
+.search_widget{
+	margin-left:430px;	
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.search_widget div{
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	text-align: center;
+	font-family: "宋体";
+}
+.search_widget div:first-child{
+	width: 190px;
+	background-color: #fff;
+	
+}
+.search_widget div:first-child img{
+	margin: 4px 1px;
+}
+.search_widget div:first-child input{
+	width: 165px;
+	height: 25px;
+}
+.search_widget div:nth-child(2){
+	background-color: #724226;
+	color:#fff;
+	width: 65px;
+}
+.search_widget div:last-child{
+	background-color: #e2651b;
+	color:#fff;
+	width: 79px;
+}
+.hot_topic{
+	margin-bottom: 5px;
+}
+
+.hot_topic li{
+	width: 150px;
+	height: 20px;
+	display: inline-block;
+	font-family: "宋体";
+	margin: 10px 20px 5px 10px;
+}
+.hot_topic li span{
+	font-size: 1.4rem;
+	color: #fff;
+	width: 17px;
+	height:17px;
+	text-align: center;
+	line-height: 17px;
+	display: inline-block;
+}	
+.hot_topic li:first-of-type span,.hot_topic li:nth-of-type(2) span,.hot_topic li:nth-of-type(3) span{
+	background-color: #e2651b;
+}
+.hot_topic li:nth-of-type(4) span{
+	background-color: #724226;
+}
+.hot_topic li:nth-of-type(5) span,.hot_topic li:nth-of-type(6) span,.hot_topic li:nth-of-type(7) span,.hot_topic li:nth-of-type(8) span,.hot_topic li:nth-of-type(9) span,.hot_topic li:last-of-type span{
+	background-color: #646464;
+}
+.hot_topic li a{
+	font-size: 1rem;
+	color:#000;
+	padding-bottom: 4px;
+	border-bottom: 1px dashed #e5c8b5;
+}
+/* 10大关注焦点话题结束 */
+
+/* 银屑病导航开始 */
+.disease_nav{
+	width: 980px;
+	height: 96px;
+	background-color: #724226;
+	margin-bottom: 5px;
+}
+.disease_nav ul{
+	display: inline-block;
+	float: left;
+	width: 225px;
+	height: 75px;
+	margin:10px;
+}
+.disease_nav ul span{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.disease_nav ul span:first-of-type{
+	font-size: 18px;
+	color: #eee;
+}
+.disease_nav ul span:first-of-type:before{
+	content:url(../imgs/cloud.png);
+	margin-right: 6px;
+}
+.disease_nav ul span:last-of-type{
+	font-size: 10px;
+	font-family: "Myriad Pro";
+	font-weight: normal;
+	color: #eee;
+}
+.disease_nav ul img{
+	float: left;
+}
+.disease_nav ul div{
+	display: inline-block;
+	float: left;
+}
+.disease_nav ul li{
+	font-size: 13px;
+	display: inline-block;
+	font-family: "宋体";
+	width: 52px;
+	text-align: center;
+	margin:3px 0;
+}
+.disease_nav ul li a{
+	color: #fff;
+}
+.disease_nav .line_right{
+	border-right: 1px solid #b8b8b8;
+	margin-right: 6px;
+	padding-right: 6px; 
+}
+.disease_nav .text_align{
+	margin-left: 36px;
+}
+
+/* 银屑病导航结束 */
+
+/* 新闻动态开始 */
+.news_wrap{
+	width: 708px;
+	height: 415px;
+	display: inline-block;
+	float: left;
+}
+.news_wrap img{
+	float: left;
+}
+.news_wrap>div{
+	margin-left: 8px;
+	float: left;
+	width: 403px;
+	height: 300px;
+	background-color: #fff;
+}
+.news_wrap img:last-of-type{
+	margin-top: 10px;
+}
+.news_wrap>div div:first-child{
+	font-size: 1.8rem;
+	color: #724226;
+}
+.news_wrap>div div:first-child span{
+	display: inline-block;
+	width: 130px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	margin-top: 5px;
+}
+.news_wrap .news_checked{
+	color: #fff;
+	background: url(../imgs/word_bg.jpg) no-repeat -5px 0;
+}
+/* 医院动态样式 */
+.yydt{
+	/* display: none; */
+}
+
+.yydt span{
+	display: block;
+	font-size: 1.4rem;
+	text-align: center; 
+	color: #414141;
+}
+.pstyle{/* 通用段落样式 */
+	display: block;
+	font-size: 1.2rem;
+	text-indent: 2.4rem; 
+	color: #a8a8a8;
+	line-height: 22px;
+	font-family: "宋体";
+	
+}
+.pstyle a{
+	color: #e2651b;
+	font-size: 1.2rem;
+	font-family: "宋体";
+}
+.yydt p{
+	width: 375px;
+	margin: 10px 15px;
+}
+
+.yydt ul{
+	width: 375px;
+	height: 155px;
+	border-top: 1px solid #eee;
+	margin: 15px auto 0;
+}
+.yydt ul li{
+	color:#414141;
+	font-size: 1.4rem;
+	margin:10px;
+}
+.yydt ul li:before{
+	content:url(../imgs/circle.png);
+	margin-right: 5px;
+}
+/* 媒体报道样式 */
+.mtbd{
+	display: none;
+}
+/* 在线问答样式 */
+.zjwd{
+	display: none;
+}
+/* 新闻动态结束 */
+
+/* 医院简介开始 */
+.hspt_info{
+	margin-left: 8px;
+	width: 264px;
+	height: 415px;
+	background-color: #fff;
+	display: inline-block;
+	float: left;
+}
+.hspt_info img:first-of-type{
+	margin:10px 10px 0;
+}.hspt_info img:last-of-type{
+	margin:0 10px;
+}
+.hspt_info>span{
+	display: inline-block;
+	margin-left: 20px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 1.6rem;
+}
+.hspt_info p{
+	width: 250px;
+	margin: 10px 8px 0;
+}
+
+.button_group{
+	width: 264px;
+
+}
+.button_group div:not(:empty){
+	width: 132px;
+	float: left;
+	font-size: 1.4rem;
+	color: #724226;
+	height: 36px;
+	line-height: 36px;
+	margin-bottom: 5px;
+}
+.button_group div:empty{
+	clear:both;
+}
+/* 医院简介结束 */
+
+/* 聚焦卫生部开始 */
+.jjwsb{
+	width: 980px;
+	height: 775px;
+	background-color: #fff;
+}
+/* section头部的样式 */
+.section_header{/* 通用section头部样式 */
+	border-bottom: 1px solid #eee;
+}
+.section_header div:not(:empty){
+	height: 65px;
+	display: inline-block;
+	line-height: 65px;
+	float: left;
+}
+.section_header div:empty{
+	clear:both;
+}
+.section_header div:first-of-type{
+	font-size: 2.9rem;
+	font-family: "MStiffHeiPRC UltraBold";
+	color:#724226;	
+}
+.section_header div:first-of-type:before{
+	content:url(../imgs/logo6.png);
+	position: relative;
+	top: 8px;
+	margin: 0 10px;
+
+	
+}
+.section_header div:first-of-type:after{
+	content:url(../imgs/line1.png);
+	position: relative;
+	top: 2px;
+	margin-left: 25px;
+}
+.section_header div:nth-of-type(2){
+	font-size: 1.6rem;
+	color:#7a7a7a;
+	margin-left: 17px;
+}
+.section_header div:nth-of-type(3){
+	color:#e2651b;
+	font-size: 2.4rem;
+	margin-right: 30px;
+	float: right;
+}
+.section_header div:nth-of-type(3):before{
+	content: url(../imgs/logo5.jpg);
+	position: relative;
+	top:7px;
+	margin-right: 5px;
+}
+.jjwsb>div{
+	width: 955px;
+	margin:15px auto;
+}
+.jjwsb>div:first-of-type{
+	height: 307px;
+}
+.jjwsb>div:first-of-type div:first-child{
+	width: 426px;
+	height: 307px;
+	background-color: #724226;
+	margin-right: 17px;
+	float: left;
+}
+.jjwsb>div:first-of-type div:last-child{
+	width: 511px;
+	height: 307px;
+	float: left;
+}
+.jjwsb>div:first-of-type div:last-child p{
+	width: 500px;
+	font-size: 1.2rem;
+	color: #818181;
+	line-height: 24px;
+	font-family: "宋体";
+	margin:16px 6px;
+
+}
+.jjwsb>div:first-of-type div:last-child a{
+	color: #e2651b;
+	font-family: "宋体";
+}
+.jjwsb>div:nth-of-type(2){
+	height: 180px;
+}
+.jjwsb>div:nth-of-type(2) div{
+	width: 225px;
+	text-align: center;
+	float: left;
+}
+.jjwsb>div:nth-of-type(2) div:not(:first-child){
+	margin-left: 18px;
+}
+.jjwsb>div:nth-of-type(2) div video{
+	width: 225px;
+	height: 155px;
+	background-color: #724226;
+}
+.jjwsb>div:nth-of-type(2) div span{
+	color: #696868;
+	font-size: 1.2rem;
+	font-family: "宋体";
+}
+.jjwsb>div:nth-of-type(2) div span:before{
+	content: url(../imgs/camera.jpg);
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+.jjwsb>div:nth-of-type(3){
+	display: flex;
+	justify-content:space-between;
+}
+.jjwsb>div:nth-of-type(3) img:not(.conference_report){
+	width: 220px;
+	
+}
+
+/* 聚焦卫生部结束 */
+
+/* 聚焦名医堂开始 */
+.jjmyt{
+	width: 980px;
+	height: 560px;
+	background-color: #fff;
+}
+
+.jjmyt_header{
+	border-bottom: 1px solid #eee;
+}
+.jjmyt_header div:not(:empty){
+	height: 65px;
+	display: inline-block;
+	line-height: 65px;
+	float: left;
+}
+.jjmyt_header div:empty{
+	clear:both;
+}
+.jjmyt_header div:first-of-type{
+	font-size: 2.9rem;
+	font-family: "MStiffHeiPRC UltraBold";
+	color:#724226;	
+}
+.jjmyt_header div:first-of-type:before{
+	content:url(../imgs/logo6.png);
+	position: relative;
+	top: 8px;
+	margin: 0 10px;
+
+	
+}
+.jjmyt_header div:first-of-type:after{
+	content:url(../imgs/line1.png);
+	position: relative;
+	top: 2px;
+	margin-left: 25px;
+}
+.jjmyt_header div:nth-of-type(2){
+	font-size: 1.6rem;
+	color:#7a7a7a;
+	margin-left: 17px;
+}
+.jjmyt_header div:nth-of-type(3){
+	margin-left: 30px;
+}
+.jjmyt_header div:nth-of-type(4){
+	color:#e2651b;
+	font-size: 2.4rem;
+	margin-left: 40px;
+}
+.jjmyt_header div:nth-of-type(4):before{
+	content: url(../imgs/logo7.jpg);
+	position: relative;
+	top:7px;
+	margin-right: 5px;
+}
+.jjmyt_header span{
+	display: inline-block;
+	width: 65px;
+	height: 30px;
+	color: #fff;
+	background-color: #724226;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	margin: 17px 10px;
+}
+.daili{
+	width: 955px;
+	height: 448px;
+	background: url(../imgs/daili_bg.jpg);
+	margin:0 auto;
+	/* display: none; */
+}
+.professor_wrap ul{
+	position: relative;
+	top:170px;
+	left:550px;
+	display: inline-block;
+}
+.professor_wrap ul li{
+	color: #616161;
+	font-size: 1.2rem;
+	margin:5px 0;
+
+}
+.professor_wrap ul li:before{
+	content: url(../imgs/logo8.png);
+	position: relative;
+	top:4px;
+	margin-right: 5px;
+	
+}
+.professor_wrap span{
+	width: 128px;
+	height: 36px;
+	font-size: 1.6rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px;
+	color:#fff;
+	position: relative;
+	top: 305px;
+	left:270px;
+	margin-right: 40px;
+}
+.professor_wrap span:first-of-type{
+	background-color: #e2651b;
+
+}
+.professor_wrap span:last-of-type{
+	background-color: #9b9b9b; 
+}
+.luolanzhen{
+	width: 955px;
+	height: 448px;
+	background: url(../imgs/luolanzhen_bg.jpg);
+	display: none;
+	margin:0 auto;
+}
+
+/* 聚焦名医堂结束 */
+/* 规范化技术开始 */
+.gfhjs{
+	width: 980px;
+	height: 790px;
+	background-color: #fff;
+}
+.gfhjs>div:first-of-type{
+	height: 38px;
+	text-align: center;
+	margin:30px 0;
+}
+.gfhjs>div:first-of-type span{
+	font-size: 2.8rem;
+	color: #724226;
+	border-right: 1px solid #ddd;
+	padding-right: 15px;
+	margin-right: 15px;
+}
+
+.gfhjs>p{
+	width: 940px;
+	color: #818181;
+	margin:0 auto 30px;
+}
+.gfhjs_body{
+	width: 955px;
+	margin: 0 auto 10px;
+	height: 447px;
+	overflow: hidden;
+
+}
+.gfhjs_body>ul{
+	display: inline-block;
+	width: 175px;
+	height: 447px;
+}
+.gfhjs_body>ul li:not(.gfhjs_checked){
+	width: 169px;
+	height: 88px;
+	background-color: #9b9b9b;
+	text-align: center;
+	color: #fff;
+	margin-left: 6px;
+	
+}
+.gfhjs_body>ul li:not(:first-child){
+	margin-top: 2px;
+}
+.gfhjs_body>ul li span{
+	display: inline-block;
+}
+.gfhjs_body>ul li span:first-child{
+	font-size: 1.6rem;
+	font-family: "宋体";
+	margin-top: 32px;
+
+}
+.gfhjs_body>ul li span:last-child{
+	font-size: 1rem;
+	font-family: Arial;
+	font-variant:small-caps;
+	margin-top: 5px;
+}
+.gfhjs_checked{
+	width: 175px;
+	height: 88px;
+	
+	text-align: center;
+	color: #fff;
+	
+	background:url(../imgs/brown_bg.png);
+}
+
+.sjjc,.wdzl,.sdzl,.bdkf,.pk{
+	width: 765px;
+	height: 447px;
+	display: none;
+	margin-right: 15px;
+	float: left;
+
+}
+/* 三级检测 */
+.sjjc{
+	display: inline-block;
+}
+
+.sjjc ul{
+	width: 765px;
+	height: 220px;
+	display: inline-block;
+	margin-bottom: 26px;
+}
+.sjjc ul>img{
+	margin-top: 45px;
+	float: left;
+}
+.sjjc li{
+	width: 175px;
+	float: left;
+	margin-right: 3px;
+}
+
+.sjjc li span{
+	display: block;
+	font-family: "宋体";
+	color: #515151;
+}
+.sjjc li span:first-of-type{
+	font-size: 1.6rem;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+.sjjc li span:last-of-type{
+	font-size: 1.2rem;
+	line-height: 22px;
+}
+
+.sjjc li:last-child{
+	width: 200px;
+	margin-right: 0;
+}
+.sjjc li:last-child span:first-of-type{
+	color: #724226;
+}
+.sjjc>div:first-of-type{
+	width: 389px;
+	height: 199px;
+	display: inline-block;
+	background-color: #f9f9f9;
+	float: left;
+	margin-right: 6px;
+}
+.sjjc>div:first-of-type span{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #724226;
+	color: #fff;
+	padding-left: 25px;
+}
+.sjjc>div:first-of-type span:before{
+	content: url(../imgs/3ji_logo.png);
+	position: relative;
+	top: 6px;
+	left: -5px;
+}
+.sjjc>div:first-of-type p{
+	margin:30px auto;
+	color: #515151;
+}
+.sjfx{
+	width: 370px;
+	height: 220px;
+	display: inline-block;
+	font-family: "宋体";
+	font-size: 1.2rem;
+	line-height: 22px;
+	float: left;
+}
+.sjfx div:first-child{
+	height: 68px;
+	color:#fff;
+	background-color: #e2651b;
+}
+.sjfx div:first-child span:first-child{
+	font-size: 3.6rem;
+	font-family: "黑体";
+	display: inline-block;
+	line-height: 68px;
+	float: left;
+}
+.sjfx div:first-child span:last-child{
+	margin-top: 12px;
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+.sjfx div:nth-child(2){
+	height: 56px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e2651b;
+	border-right: 1px solid #e2651b;
+}
+.sjfx div:nth-child(2) span:first-child{
+	width: 38px;
+	height: 46px;
+	display: inline-block;
+	background-color: #e2651b;
+	color: #fff;
+	text-align: center;
+	float: left;
+	padding: 5px 15px;
+}
+.sjfx div:nth-child(2) span:last-child{
+	display: inline-block;
+	width: 270px;
+	height: 46px;
+	float: left;
+	padding: 5px 15px;
+
+}
+.sjfx div:last-child{
+	height: 71px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e2651b;
+	border-right: 1px solid #e2651b;
+}
+.sjfx div:last-child span:first-child{
+	width: 38px;
+	height: 47px;
+	display: inline-block;
+	background-color: #e2651b;
+	color: #fff;
+	text-align: center;
+	float: left;
+	padding: 12px 15px;
+}
+.sjfx div:last-child span:last-child{
+	display: inline-block;
+	width: 270px;
+	height: 61px;
+	float: left;
+	padding: 5px 15px;
+
+}
+/* 五大治疗优势 */
+/* .wdzl{
+
+	display: inline-block;
+} */
+.wdzl>div{
+	float: left;
+	display: inline-block;
+}
+.wdzl_item{
+	display: inline-block;
+	width: 270px;
+	height: 66px;
+	margin:0 5px 15px ;
+}
+.wdzl_item span{
+	float: left;
+	display: inline-block;
+}
+.wdzl_item>span:first-child{
+	font-size: 5.5rem;
+	color: #e2651b;
+	width: 32px;
+	height: 66px;
+	line-height: 66px;
+}
+.wdzl_item>span:last-child{
+	width: 238px;
+	height: 66px;
+}
+.wdzl_item>span:last-child span:first-child{
+	font-size: 1.6rem;
+	color: #e2651b;
+	height: 22px;
+	line-height: 22px;
+
+}
+.wdzl_item>span:last-child span:last-child{
+	font-size: 1.2rem;
+	color: #919191;
+	font-family: "宋体";
+	line-height: 22px;
+}
+.wdzl>div:first-child,.wdzl>div:nth-child(3){
+	width: 270px;
+
+}
+.wdzl>div:nth-child(2){
+	width: 210px;
+	margin-top: 20px;
+}
+.wdzl>div:last-of-type{
+	width:765px;
+	height: 179px;
+	display: inline-block;
+	background-color: #f9f9f9;
+	float: left;
+	margin-top: 20px;
+}
+.wdzl>div:last-of-type span{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #724226;
+	color: #fff;
+	padding-left: 25px;
+	font-size: 1.7rem;
+}
+.wdzl>div:last-of-type span:before{
+	content: url(../imgs/5da_logo.png);
+	position: relative;
+	top: 6px;
+	left: -5px;
+}
+.wdzl>div:last-of-type p{
+	margin:30px auto;
+	color: #515151;
+}
+/* 三大治疗准则 */
+
+.sdzl>div:not(:first-child){
+	margin-left: 7px;
+}
+.sdzl_item{
+	display: inline-block;
+	width: 250px;
+	height: 447px; 
+	background-color: #f9f9f9;
+	float: left;
+}
+.sdzl_item>span{
+	background-color: #724226;
+	text-align: center;
+	color: #fff;
+	height: 40px;
+	font-size: 1.6rem;
+	line-height: 40px;
+	display: block;
+}
+.sdzl_item>div{
+	width: 235px;
+	height: 186px;
+	margin:0 auto;
+}
+.sdzl_item>div div{
+	margin-top: 25px;
+}
+.sdzl_item>div span{
+	font-size:1.4rem;
+}
+
+.sdzl_item img{
+	display: block;
+	margin: 0 auto 12px;
+}
+
+.sdzl>div:nth-child(2)>div span{
+	background-color: #f2f2f2;
+	margin-left: 5px;
+}
+.num{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	background-color: #e2651b;
+	color: #fff;
+}
+/* 八大康复项目 */
+
+.bdkf>div:first-child{
+	font-size: 3rem;
+	height: 50px;
+	color:#724226;
+	text-align: center;
+	line-height: 50px;
+}
+.bdkf>div:first-child span{
+	position: absolute;
+	font-size: 1.2rem;
+	color:#f57800;
+	margin: 5px 80px;
+}
+.bdkf>div:first-child span:before{
+	content: url(../imgs/logo10.png);
+}
+.bdkf>div:nth-child(2){
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #e2651b;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+.bdkf>div:nth-child(2) span{
+	margin-right:15px; 
+}
+.bdkf>div:nth-child(2) img{
+	position: relative;
+	top: -7px;
+}
+.bdkf>div:last-child{
+	display: flex;
+	justify-content:space-between;
+}
+.bdkf>div:last-child>div{
+	width: 126px;
+	height: 347px;
+	background-color: #f9f9f9;
+	
+}
+.bdkf>div:last-child>div img{
+	width: 126px;
+	
+}
+.bdkf>div:last-child>div p{
+	text-indent: 0;
+	margin: 30px auto;
+	color: #444;
+	width: 110px;
+}
+
+/* pk */
+/* .pk{
+	display: inline-block;	
+} */
+.pk table{
+	text-align: center;
+	width: 765px;
+	height: 447px;
+
+}
+.pk tr:not(:last-child) td{
+	border-bottom: 1px solid #eee;
+}
+.pk tr:not(:first-child) td{
+	font-size: 1.4rem;
+	font-family: "宋体";
+}
+
+.pk tr td:first-child{
+	width: 330px;
+	background-color: #f9f9f9;
+	color: #676767;
+}
+.pk tr td:nth-child(2){
+	width: 105px;
+	color: #724226;
+	font-weight: bold;
+
+}
+.pk tr td:last-child{
+	width: 330px;
+	background-color: #fdf9f4;
+	color: #e2651b;
+}
+.pk tr:first-child td{
+	font-size: 3rem;
+}
+.gfhjs>div:last-of-type{
+	width: 955px;
+	margin:0 auto;
+}
+/* 规范化技术结束 */
+
+/* 康复案例开始 */
+.kfal{
+	width: 980px;
+	background-color: #fff;
+
+}
+
+.kfal_header{
+	border-bottom: 1px solid #eee;
+}
+.kfal_header div:not(:empty){
+	height: 65px;
+	display: inline-block;
+	line-height: 65px;
+	float: left;
+}
+.kfal_header div:empty{
+	clear:both;
+}
+.kfal_header div:first-of-type{
+	font-size: 2.9rem;
+	font-family: "MStiffHeiPRC UltraBold";
+	color:#724226;	
+}
+.kfal_header div:first-of-type:before{
+	content:url(../imgs/logo6.png);
+	position: relative;
+	top: 8px;
+	margin: 0 10px;
+
+	
+}
+.kfal_header div:first-of-type:after{
+	content:url(../imgs/line1.png);
+	position: relative;
+	top: 2px;
+	margin-left: 25px;
+}
+.kfal_header div:nth-of-type(2){
+	font-size: 1.6rem;
+	color:#7a7a7a;
+	margin-left: 17px;
+}
+
+.kfal_header div:nth-of-type(3){
+	color:#e2651b;
+	font-size: 2.4rem;
+	margin-left: 225px;
+}
+.kfal_header div:nth-of-type(3):before{
+	content: url(../imgs/logo7.jpg);
+	position: relative;
+	top:7px;
+	margin-right: 5px;
+}
+.kfal>div:not(:empty){
+	float: left;
+}
+.kfal>div:empty{
+	clear: both;
+}
+.kfal_wrap{
+	margin-bottom: 40px;
+}
+.kfal_row{
+	width: 980px;
+	display: flex;
+	justify-content:space-between;
+	margin-top: 30px;
+
+}
+.kfal_item{
+	width: 240px;
+	height: 232px;
+	border:1px solid #eee;
+	display: inline-block;
+}
+.kfal_item>div:first-of-type{
+	height: 154px;
+	background-color: #724226;
+}
+.kfal_item>div:last-of-type{
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 30px;
+	color: #724226;
+	font-family: "宋体"; 
+}
+.kfal_item p{
+	color:#2b2b2b;
+}
+.kfal_button{
+	width: 980px;
+	text-align: center;
+}
+.kfal_button span{
+	display: inline-block;
+	width: 800px;
+	height: 50px;
+	background: url(../imgs/btn_bg.jpg) no-repeat;
+	text-align: center;
+	font-size: 1.8rem;
+	color: #724226;
+}
+.kfal>div:nth-of-type(3){
+	width: 980px;
+	height: 95px;
+	border-top: 1px dashed #eee;
+	text-align: center;
+}
+.kfal>div:nth-of-type(3) span{
+	width: 335px;
+	height: 43px;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px;
+	line-height: 43px;
+	display: inline-block;
+	font-size: 2rem;
+	margin-top: 30px;
+}
+.kfal>div:nth-of-type(3) span img{
+	position: relative;
+	top: -11px;
+	left: 22px;
+}
+.kfal>div:nth-of-type(3) span:first-child{
+	background-color: #724226;
+	cursor:pointer;
+}
+.kfal>div:nth-of-type(3) span:last-child{
+	margin-left: 100px;
+	background-color: #e2651b;
+	cursor:pointer;
+}
+/* 康复案例结束 */
+
+/* 银屑病健康讲堂开始 */
+.jkjt{
+	width: 980px;
+	background-color: #fff;
+}
+.jkjt_body{
+	width: 955px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.jkjt_body>div:empty{
+	clear: both;
+}
+.jkjt_left{
+	width: 733px;
+	height: 625px;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	float: left;
+
+}
+.jkjt_item{
+	width: 360px;
+	height: 300px;
+
+}
+.jkjt_item>div:first-child{
+	height: 35px;
+	background-color: #f1ece9;
+}
+.jkjt_item>div:first-child span:first-child{
+	display: inline-block;
+	width: 115px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 35px;
+	background-color: #724226;
+	color: #fff;
+}
+.jkjt_item>div:first-child span:last-child{
+	font-size: 14px;
+	color: #626262;
+	font-family: "宋体";
+	margin-left: 200px;
+}
+
+.jkjt_item>div:nth-child(2) ul{
+	text-align: center;
+}
+.jkjt_item>div:nth-child(2) ul li{
+	display: inline-block;
+	padding:0 7px;
+	font-family: "宋体";
+	font-size: 1.2rem;
+	margin:15px auto;
+}
+.jkjt_item>div:nth-child(2) ul li:not(:first-child){
+	border-left: 1px solid #939393;
+}
+.jkjt_item>div:nth-child(2) ul li:not(.jkjt_checked) a{
+	color:#939393;
+}
+.jkjt_checked a{
+	color: #fff;
+	background-color: #724226;
+}
+.jkjt_item>div:nth-child(3){
+	width: 100%;
+	height: 113px;
+
+}
+.jkjt_item>div:nth-child(3) div:first-child{
+	display: inline-block;
+	width: 165px;
+	height: 113px;
+	background-color: #724226;
+	float: left;
+}
+.jkjt_item>div:nth-child(3) div:last-child{
+	display: inline-block;
+	width: 182px;
+	float: left;
+	margin-left: 7px;
+	margin-top: 10px;
+}
+.jkjt_item>div:nth-child(3) div:last-child span{
+	text-align: center;
+	display: inline-block;
+	color:#545454;
+	font-size: 1.4rem;
+	width: 182px;
+	height: 20px;
+	line-height: 20px;
+}
+.jkjt_item>div:nth-child(3) div:last-child p{
+	margin-top: 10px;
+}
+.jkjt_item>div:nth-child(4){
+	width: 100%;
+	height: 110px;
+}
+.jkjt_item>div:nth-child(4) div{
+	height: 27px;
+	line-height: 27px;
+	font-size: 1.2rem;
+	font-family: "宋体";
+}
+.jkjt_item>div:nth-child(4) div a{
+	color:#a3a3a3;
+}
+.jkjt_item>div:nth-child(4) div span:first-child:before{
+	content: url(../imgs/circle.png);
+}
+.jkjt_item>div:nth-child(4) div span:last-child{
+	margin-left: 90px;
+}
+
+.jkjt_right{
+	width: 210px;
+	height: 625px;
+	margin-left: 12px;
+	display: inline-block;
+	float: left;
+}
+.jkjt_QA{
+	width: 200px;
+	height: 120px;
+	margin: 22px auto;
+}
+
+.jkjt_QA>div:first-child span:first-child{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #e2651b;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+	color:#fff;
+}
+.jkjt_QA>div:first-child span:last-child{
+	color: #e2651b;
+	font-size: 1.2rem;
+	font-family: "宋体";
+}
+.jkjt_QA>div:last-child{
+	height: 85px;
+	margin-top: 15px;
+}
+.jkjt_QA>div:last-child span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #724226;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+	color:#fff;
+	float: left;
+}
+.jkjt_QA>div:last-child p{
+	display: inline-block;
+	width: 160px;
+	float: left;
+	text-indent: 0;
+}
+/* 银屑病健康讲堂结束 */
+
+/* 公益事业开始 */
+.gysy{
+	display: flex;
+	justify-content:space-between; 
+}
+.gysy_item{
+	width: 320px;
+	height: 275px;
+	background-color: #fff;
+}
+.gysy_item>div{
+	width: 306px;
+	margin: 0 auto;
+}
+.gysy_item>div:first-child{
+	height: 55px;
+	line-height: 55px;
+
+}
+.gysy_item>div:first-child span:first-child{
+	font-size: 1.8rem;
+	color: #724226;
+}
+.gysy_item>div:first-child span:last-child{
+	font-size: 1.2rem;
+	color: #d0d0d0;
+	font-family: Arial;
+	font-variant: small-caps;
+}
+.gysy_item>div:last-child{
+	height: 210px;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.gysy_item>div:last-child>div{
+	width: 150px;
+	height: 95px;
+	background-color: #724226;
+	color:#fff;
+	font-size: 1.2rem;
+	font-family: "宋体";
+
+}
+.gysy_item>div:last-child>div span{
+	display: block;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	background-color: #392113;
+	margin-top: 70px;	
+}
+
+
+/* 公益事业结束 */
+
+/* 医院环境开始 */
+.yyhj{
+	height: 176px;
+	background-color: #fff;
+}
+.yyhj>div:first-child{
+	height: 30px;
+	border-bottom: 1px solid #eee;
+}
+.yyhj>div:first-child span{
+	display: inline-block;
+	width: 107px;
+	height: 30px;
+	line-height: 30px;
+	color:#fff;
+	font-size: 1.8rem;
+	text-align: center;
+	background-color: #724226;
+
+}
+.yyhj>div:last-child{
+	display: flex;
+	justify-content:space-between;
+	margin-top: 13px;
+	height: 133px;
+}
+.yyhj>div:last-child>div{
+	display: inline-block;
+	width: 190px;
+	height: 133px;
+	background-color: #9e9e9e;
+}
+
+
+/* 医院环境结束 */
+
+/* 底部 */
+footer{
+	width: 100%;
+	height: 411px;
+	background-color: #724226;
+	min-width: 980px;
+}
+footer>div:first-child{
+	width: 980px;
+	height: 241px;
+	margin:0 auto;
+	/* border-bottom: 1px solid #794c31; */
+}
+footer>div:first-child>div{
+	float: left;
+}
+.bottom_logo{
+	display: inline-block;
+	width: 275px;
+	height: 170px;
+	text-align: center;
+	margin: 25px 50px 0 0;
+
+}
+.bottom_logo img{
+	margin: 15px;
+}
+.bottom_logo span{
+	color: #fff;
+	display: block;
+}
+.bottom_logo span:first-child{
+	font-size: 2.2rem;
+
+}
+.bottom_logo span:last-child{
+	font-size: 1.3rem;
+	font-family: Arial;
+	font-variant: small-caps;
+}
+.bottom_list{
+	width: 120px;
+	height: 130px;
+	display:inline-block;
+	border-left: 1px dotted #fff;
+	color: #fff;
+	text-align: center;
+	margin: 60px 0 0 40px;
+}
+.bottom_list ul{
+	font-size: 2rem;
+}
+.bottom_list ul li{
+	font-size: 1.4rem;
+	margin-top: 13px;	
+}
+.bottom_list ul li a{
+	color: #fff;
+}
+footer>div:last-child{
+	height: 169px;
+	border-top: 1px solid #794c31;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #fff;
+}
+footer>div:last-child span{
+	display: block;
+	margin:35px 0;
+}
+	

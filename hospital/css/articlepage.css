@@ -1,0 +1,597 @@
+@charset "utf-8";
+:root{
+	font-size: 62.5%;
+	background-color: #fdfaf6;
+}
+.pstyle{/* 通用段落样式 */
+	display: block;
+	font-size: 1.2rem;
+	text-indent: 2.4rem; 
+	color: #888;
+	line-height: 22px;
+	font-family: "宋体";
+	
+}
+.pstyle a{
+	color: #e2651b;
+	font-size: 1.2rem;
+	font-family: "宋体";
+}
+/* 顶部开始 */
+.page_header{
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+	text-align: center;
+	min-width: 980px;
+}
+.page_header header{
+	width: 100%;
+	height: 33px;
+	background:url('../imgs/top_border.jpg') repeat;
+}
+.page_header img{
+	margin-top: 5px;
+}
+/* 顶部结束 */
+
+/* 导航栏开始 */
+.navbar{
+	width: 100%;
+	height: 43px;
+	text-align: center;
+	background-color: #724226;
+	min-width: 1100px;
+}
+.navbar ul li{
+	display: inline-block;
+	font-size: 1.6rem;
+	font-family: "微软雅黑";
+	width: 113px;
+	margin: 13px 0;
+}
+.navbar ul li:nth-child(even){
+	border-left: 1px solid #a6643e;
+	border-right: 1px solid #a6643e;
+}
+.navbar ul li a{
+	color: #eee;
+}
+/* 导航栏结束 */
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 385px;
+	background-color: #9e6442;
+}
+
+/* 10大关注焦点话题开始 */
+.main_page{
+	width: 980px;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.main_page>header{
+
+	margin-bottom: 10px;
+}
+.main_page>header div:empty{
+	clear: both;
+}
+.main_page>section{
+	width: 980px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content:space-between;
+}
+
+.hot_topic{
+	width: 980px;
+	height: 125px;
+	background-color: #f7eae2;
+
+}
+.hot_topic ul{
+	margin: 5px 20px;
+}
+.hot_topic .title{
+	display: inline-block;
+}
+.hot_topic .title span:first-child{
+	font-size: 3.6rem;
+	color: #e2651b;
+	font-family: "Georgia";
+}
+.hot_topic .title span:last-child{
+	font-size: 1.6rem;
+	color: #e2651b;
+	font-weight: bold;
+}
+.search_widget{
+	margin-left:430px;	
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.search_widget div{
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	text-align: center;
+	font-family: "宋体";
+}
+.search_widget div:first-child{
+	width: 190px;
+	background-color: #fff;
+	
+}
+.search_widget div:first-child img{
+	margin: 4px 1px;
+}
+.search_widget div:first-child input{
+	width: 165px;
+	height: 25px;
+}
+.search_widget div:nth-child(2){
+	background-color: #724226;
+	color:#fff;
+	width: 65px;
+}
+.search_widget div:last-child{
+	background-color: #e2651b;
+	color:#fff;
+	width: 79px;
+}
+.hot_topic{
+	margin-bottom: 5px;
+}
+
+.hot_topic li{
+	width: 150px;
+	height: 20px;
+	display: inline-block;
+	font-family: "宋体";
+	margin: 10px 20px 5px 10px;
+}
+.hot_topic li span{
+	font-size: 1.4rem;
+	color: #fff;
+	width: 17px;
+	height:17px;
+	text-align: center;
+	line-height: 17px;
+	display: inline-block;
+}	
+.hot_topic li:first-of-type span,.hot_topic li:nth-of-type(2) span,.hot_topic li:nth-of-type(3) span{
+	background-color: #e2651b;
+}
+.hot_topic li:nth-of-type(4) span{
+	background-color: #724226;
+}
+.hot_topic li:nth-of-type(5) span,.hot_topic li:nth-of-type(6) span,.hot_topic li:nth-of-type(7) span,.hot_topic li:nth-of-type(8) span,.hot_topic li:nth-of-type(9) span,.hot_topic li:last-of-type span{
+	background-color: #646464;
+}
+.hot_topic li a{
+	font-size: 1rem;
+	color:#000;
+	padding-bottom: 4px;
+	border-bottom: 1px dashed #e5c8b5;
+}
+/* 10大关注焦点话题结束 */
+
+/* 银屑病导航开始 */
+.disease_nav{
+	width: 980px;
+	height: 96px;
+	background-color: #724226;
+	margin-bottom: 5px;
+}
+.disease_nav ul{
+	display: inline-block;
+	float: left;
+	width: 225px;
+	height: 75px;
+	margin:10px;
+}
+.disease_nav ul span{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.disease_nav ul span:first-of-type{
+	font-size: 18px;
+	color: #eee;
+}
+.disease_nav ul span:first-of-type:before{
+	content:url(../imgs/cloud.png);
+	margin-right: 6px;
+}
+.disease_nav ul span:last-of-type{
+	font-size: 10px;
+	font-family: "Myriad Pro";
+	font-weight: normal;
+	color: #eee;
+}
+.disease_nav ul img{
+	float: left;
+}
+.disease_nav ul div{
+	display: inline-block;
+	float: left;
+}
+.disease_nav ul li{
+	font-size: 13px;
+	display: inline-block;
+	font-family: "宋体";
+	width: 52px;
+	text-align: center;
+	margin:3px 0;
+}
+.disease_nav ul li a{
+	color: #fff;
+}
+.disease_nav .line_right{
+	border-right: 1px solid #b8b8b8;
+	margin-right: 6px;
+	padding-right: 6px; 
+}
+.disease_nav .text_align{
+	margin-left: 36px;
+}
+
+/* 银屑病导航结束 */
+
+/* 文章页内容开始 */
+.list_content{
+	width: 720px;
+	height: 1604px;
+	display: inline-block;
+
+	background-color: #fff;
+}
+.content_header{
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #ddd;
+	color: #b7b7b7;
+}
+.content_header img{
+	margin:9px;
+
+}
+.content_title{
+	text-align: center;
+	line-height: 30px;
+	margin-top: 35px;
+}
+.content_title span:first-child{
+	color:#724226;
+	font-size: 1.8rem;
+	display: block;
+}
+.content_title span:last-child{
+	color:#b0b0b0;
+	font-size: 1.2rem;
+	display: block;
+	font-family: "宋体";
+}
+.content_summary{
+	line-height: 24px;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "宋体";
+	color:#575757;
+	margin: 45px;
+}
+.content_summary span{
+	color:#be0000;
+}
+.content_paragraph{
+	width: 670px;
+	margin: 30px auto;
+}
+.content_paragraph p{
+	line-height: 26px;
+	font-size: 1.4rem;
+	color: #898989;
+	text-indent: 2.8rem;
+	font-family: "宋体";
+}
+.content_btn{
+	text-align: center;
+}
+.content_btn span{
+	display: inline-block;
+	width: 208px;
+	height: 50px;
+	color: #fff;
+	font-size: 1.6rem;
+	font-family: "宋体";
+	line-height: 50px;
+}
+.content_btn span img{
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+.content_btn span:first-child{
+	background-color: #724226;
+
+}
+.content_btn span:last-child{
+	background-color: #e2651b;
+	margin-left: 45px;
+	
+}
+.page_select{
+	text-align: center;
+	margin:30px 0;
+}
+.page_select div{
+	display: inline-block;
+}
+.page_select div img{
+	position: relative;
+	top: 3px;
+}
+.page_select div:last-child{
+	margin-left: 100px;
+}
+.page_select div span:first-of-type{
+	color: #724226;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+.page_select div span:last-of-type a{
+	color: #717171;
+	font-size: 1.4rem;
+}
+.content_img{
+	text-align: center;
+}
+.relate{
+	margin-top: 60px;
+}
+.relate ul{
+	display: inline-block;
+	color:#724226;
+	font-size: 1.4rem;
+	font-weight: bold;
+	font-family: "宋体";
+	margin-left: 40px;
+}
+.relate ul li{
+	height: 28px;
+	line-height: 28px;
+}
+.relate ul li:before{
+	content: url(../imgs/circle.png);
+}
+.relate ul li a{
+	color: #606060;
+	font-weight: normal;
+	font-size: 1.4rem;
+	font-family: "宋体";
+}
+/* 文章页内容结束 */
+
+/* 右边栏开始 */
+.aside_right{
+
+	width: 257px;
+	/* background-color: #eee; */
+	display: inline-block;
+
+}
+.aside_right>div{
+	background-color: #fff;
+}
+.aside_right>div:not(:last-child){
+	margin-bottom: 10px;
+}
+.right1 p{
+	width: 240px;
+	height: 60px;
+	margin: 15px auto;
+}
+.right1>div{
+	border-top: 1px solid #eee;
+}
+.right1>div>div:not(:last-child){
+	margin: 15px 0;
+}
+.right1>div>div:not(:last-child) img{
+	margin-left: 15px;
+}
+.right1>div>div:not(:last-child) div{
+	display: inline-block;
+	width: 187px;
+	margin-left: 15px;
+}
+
+
+.right1>div>div:not(:last-child) span{
+	display: block;
+
+}
+.right1>div>div:not(:last-child) span:first-child{
+	color: #828282;
+	font-size: 1.2rem;
+	font-family: "宋体";	
+}
+.right1>div>div:not(:last-child) span:last-child{
+	font-size: 2.4rem;
+	color: #e2651b;
+}
+.right1>div>div:last-child{
+	text-align: center;
+}
+.right1>div>div:last-child div:last-child{
+	margin-left: 10px;
+}
+.right1>div>div:last-child div{
+	background-color: #e2651b;
+	color: #fff;
+	font-size: 1.4rem;
+	font-family: "宋体";
+	text-align: center;
+	display: inline-block;
+	width: 114px;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 10px;
+}
+.right1>div>div:last-child div img{
+	position: relative;
+	top: -7px;
+	left: -5px;
+}
+
+.right_header{
+	display: flex;
+	align-items: center;
+}
+
+
+.zhuanjia_info div{
+	display: inline-block;
+	width: 100px;
+	height: 138px;
+}
+.zhuanjia_info span{
+	display: block;
+	color: #724226;
+	margin-bottom: 10px;
+}
+.zhuanjia_info span:first-of-type{
+	font-size: 1.9rem;
+}
+.zhuanjia_info span:last-of-type{
+	font-size: 1.4rem;
+}
+.zhuanjia_info p{
+	text-indent: 0;
+}
+.no{
+	display: none;
+}
+.right2>div:last-child{
+	display: flex;
+	justify-content: space-around;
+	margin-top:10px;
+}
+.right2>div:last-child span{
+	display: inline-block;
+	width: 114px;
+	height: 34px;
+	background-color: #f7eae2;
+	color: #724226;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 34px;
+	margin-bottom:10px;
+}
+.right3 div{
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "宋体";
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #e2651b;
+}
+.right4>div:last-child div{
+	color: #606060;
+	font-size: 1.4rem;
+	height: 25px;
+	line-height: 25px;
+
+}
+.right4>div:last-child div:before{
+	content: url(../imgs/circle.png);
+	margin:0 5px;
+}
+
+.right5 table td{
+	border:1px solid #fff;
+	border-collapse: collapse;
+	color: #fff;
+	text-align: center;
+	width: 129px;
+	height: 35px;
+	font-family: "宋体";
+}
+
+/* 右边栏结束 */
+
+
+
+/* 底部 */
+footer{
+	width: 100%;
+	min-width: 980px;
+	height: 411px;
+	background-color: #724226;
+}
+footer>div:first-child{
+	width: 980px;
+	height: 241px;
+	margin:0 auto;
+	/* border-bottom: 1px solid #794c31; */
+}
+footer>div:first-child>div{
+	float: left;
+}
+.bottom_logo{
+	display: inline-block;
+	width: 275px;
+	height: 170px;
+	text-align: center;
+	margin: 25px 50px 0 0;
+
+}
+.bottom_logo img{
+	margin: 15px;
+}
+.bottom_logo span{
+	color: #fff;
+	display: block;
+}
+.bottom_logo span:first-child{
+	font-size: 2.2rem;
+
+}
+.bottom_logo span:last-child{
+	font-size: 1.3rem;
+	font-family: Arial;
+	font-variant: small-caps;
+}
+.bottom_list{
+	width: 120px;
+	height: 130px;
+	display:inline-block;
+	border-left: 1px dotted #fff;
+	color: #fff;
+	text-align: center;
+	margin: 60px 0 0 40px;
+}
+.bottom_list ul{
+	font-size: 2rem;
+}
+.bottom_list ul li{
+	font-size: 1.4rem;
+	margin-top: 13px;	
+}
+.bottom_list ul li a{
+	color: #fff;
+}
+footer>div:last-child{
+	height: 169px;
+	border-top: 1px solid #794c31;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #fff;
+}
+footer>div:last-child span{
+	display: block;
+	margin:35px 0;
+}
+	

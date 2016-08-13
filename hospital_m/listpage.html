@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 -->
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 -->
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 -->
+	<meta name="x5-fullscreen" content="true">
+
+	<title>手机端列表页</title>
+	<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="jqm/jquery.mobile-1.4.5.js"></script>
+	<script type="text/javascript" src="TouchSlide1.1-00/TouchSlide.1.1.js"></script>
+	<script type="text/javascript" src="Swiper-3.3.1/dist/js/swiper.js"></script>
+
+
+	<script type="text/javascript" src="js/rem.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="Swiper-3.3.1/dist/css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/listpage.css">
+</head>
+<body>
+	<div id="top"></div>
+	<article>
+		<header><!-- 头部 -->
+			<div><!-- 头部标题 -->
+				<img src="imgs/header_left.png" alt="" id="aside_btn">
+				<div>
+					<span>西安京科银屑病医院</span>
+					<span>Xi'an Jingke psoriasis hospital</span>
+				</div>
+				<img src="imgs/header_right.png" alt="">
+			</div>
+			<nav>
+				<ul>
+					<li class="header_focus"><a href="">医院首页</a></li>
+					<li><a href="">医院简介</a></li>
+					<li><a href="">来院路线</a></li>
+					<li><a href="">更多</a><img src="imgs/logo1.jpg" alt=""></li>
+				</ul>
+			</nav>
+			<div id="banner" class="banner"><!-- 轮播 -->
+				<div class="bd">
+					<ul>
+						<li>
+							<a class="pic" href="#"><img src="imgs/banner.jpg" /></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img src="imgs/banner.jpg"/></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img src="imgs/banner.jpg"/></a>
+						</li>
+					</ul>
+				</div>
+				<div class="hd">
+					<ul></ul>
+				</div>
+			</div>
+			<div class="news_roll"><!-- 新闻滚动 -->
+				<div>
+					京科头条
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><span>·</span>滚动新闻标题-滚动新闻标题</div>
+						<div class="swiper-slide"><span>·</span>滚动新闻标题-滚动新闻标题</div>
+						<div class="swiper-slide"><span>·</span>滚动新闻标题-滚动新闻标题</div>
+						<div class="swiper-slide"><span>·</span>滚动新闻标题-滚动新闻标题</div>
+						<div class="swiper-slide"><span>·</span>滚动新闻标题-滚动新闻标题</div>
+						<div class="swiper-slide"><span>·</span>滚动新闻标题-滚动新闻标题</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="three_btns">
+			<div>没有想要的？试试下边这些<img src="imgs/logo3.png"></div>
+			<div>
+				<!-- <img src="imgs/btn_bg4.jpg">
+				<img src="imgs/btn_bg4.jpg">
+				<img src="imgs/btn_bg4.jpg"> -->
+				<div><img src="imgs/tel.png"><span>一键通话</span></div>
+				<div><img src="imgs/qq.png"><span>QQ私聊</span></div>
+				<div><img src="imgs/toux.png"><span>咨询医师</span></div>
+			</div>
+		</section>
+		<!-- 首页>医院新闻 -->
+		<section class="news">
+			<div></div>
+			<div><img src="imgs/logo6.png"><span>首页  > 医院新闻</span></div>
+			<div>
+				<div class="news_item">
+					<img src="imgs/news_pic.jpg">
+					<div>
+						<p>西安京科2016康复成果展示会</p>
+						<p>2016年2月27日，由西安京科银 屑病医院举办的康复...<a href="#">【详情】</a></p>
+						<div>
+							<img src="imgs/logo5.png"><p>一键拨号</p>
+						</div>
+						<div>
+							<img src="imgs/logo7.png"><p>咨询详情</p>
+						</div>
+					</div>
+				</div>
+				<div class="news_item">
+					<img src="imgs/news_pic.jpg">
+					<div>
+						<p>西安京科2016康复成果展示会</p>
+						<p>2016年2月27日，由西安京科银 屑病医院举办的康复...<a href="#">【详情】</a></p>
+						<div>
+							<img src="imgs/logo5.png"><p>一键拨号</p>
+						</div>
+						<div>
+							<img src="imgs/logo7.png"><p>咨询详情</p>
+						</div>
+					</div>
+				</div>
+				<div class="news_item">
+					<img src="imgs/news_pic.jpg">
+					<div>
+						<p>西安京科2016康复成果展示会</p>
+						<p>2016年2月27日，由西安京科银 屑病医院举办的康复...<a href="#">【详情】</a></p>
+						<div>
+							<img src="imgs/logo5.png"><p>一键拨号</p>
+						</div>
+						<div>
+							<img src="imgs/logo7.png"><p>咨询详情</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 权威 -->
+		<section class="six_btns">
+			<div></div>
+			<div>
+				<div class="btn_qw">问价格</div>
+				<div class="btn_qw">查专家</div>
+				<div class="btn_normal">看疗效</div>
+				<div class="btn_qw">看医院</div>
+				<div class="btn_normal">在线问</div>
+				<div class="btn_normal">综合区</div>
+			</div>	
+		</section>
+		<section class="news">
+			<div></div>
+			<div><img src="imgs/logo6.png"><span>首页  > 医院新闻</span></div>
+			<div>
+				<div class="news_item">
+					<img src="imgs/news_pic.jpg">
+					<div>
+						<p>西安京科2016康复成果展示会</p>
+						<p>2016年2月27日，由西安京科银 屑病医院举办的康复...<a href="#">【详情】</a></p>
+						<div>
+							<img src="imgs/logo5.png"><p>一键拨号</p>
+						</div>
+						<div>
+							<img src="imgs/logo7.png"><p>咨询详情</p>
+						</div>
+					</div>
+				</div>
+				<div class="news_item">
+					<img src="imgs/news_pic.jpg">
+					<div>
+						<p>西安京科2016康复成果展示会</p>
+						<p>2016年2月27日，由西安京科银 屑病医院举办的康复...<a href="#">【详情】</a></p>
+						<div>
+							<img src="imgs/logo5.png"><p>一键拨号</p>
+						</div>
+						<div>
+							<img src="imgs/logo7.png"><p>咨询详情</p>
+						</div>
+					</div>
+				</div>
+				<div class="news_item">
+					<img src="imgs/news_pic.jpg">
+					<div>
+						<p>西安京科2016康复成果展示会</p>
+						<p>2016年2月27日，由西安京科银 屑病医院举办的康复...<a href="#">【详情】</a></p>
+						<div>
+							<img src="imgs/logo5.png"><p>一键拨号</p>
+						</div>
+						<div>
+							<img src="imgs/logo7.png"><p>咨询详情</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="page_sel">
+			<div>
+				<a href="">&lt;上一页</a>
+				<a href="">1</a>
+				<a href="">2</a>
+				<a href="">3</a>
+				<a href="">4</a>
+				<a href="">下一页&gt;</a>
+			</div>
+			<div>
+				<div>
+					<span>猜你喜欢：</span>文章标题文章标题
+				</div>
+				<div>
+					<span>热门文章：</span>文章标题文章标题
+				</div>
+			</div>
+		</section>
+		<!-- 关于医院 -->
+		<section class="ggyy">
+			<div></div>
+			<div id="slideBox3" class="slideBox3">
+				<div class="hd">
+					<ul>
+						<li class="btn_toggle"><div><a href="javascript:void(0)">关于医院</a></div></li>
+						<li><div><a href="javascript:void(0)">热点关注</a></div></li>
+						<li><div><a href="javascript:void(0)">康复故事</a></div></li>
+						<li><div><a href="javascript:void(0)">权威疗法</a></div></li>
+					</ul>
+				</div>
+				<div class="bd" id="slideBox3_bd">
+					<div class="con">
+						<ul>
+							<li><div>1</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>2</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>3</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>4</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+							<li><div>5</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+						</ul>
+					</div>
+					<div class="con">
+						<ul>
+							<li><div>1</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>2</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>3</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>4</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+							<li><div>5</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+						</ul>
+					</div>
+					<div class="con">
+						<ul>
+							<li><div>1</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>2</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>3</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>4</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+							<li><div>5</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+						</ul>
+					</div>
+					<div class="con">
+						<ul>
+							<li><div>1</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>2</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>3</div><p>冬季患者牛皮癣能治好吗？</p><img src="imgs/logo4.png"><p><a href="#">点击咨询>></a></p></li>
+							<li><div>4</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+							<li><div>5</div><p>冬季患者牛皮癣能治好吗？</p><p><a href="#">点击咨询>></a></p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="btn_style2">在线QQ咨询</div>
+				<div class="btn_style2">点击一键通话</div>
+			</div>
+		</section>
+		<footer>
+			<div>
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">病例</a></li>
+					<li><a href="">问答</a></li>
+					<li><a href="">百科</a></li>
+				</ul>
+			</div>
+			<div>
+				<div>
+					地址：莲湖区丰登北路中段72号<br>QQ：1966669318<br>咨询电话：029-81329999
+				</div>
+				<div id="backtop">
+					<img src="imgs/backtop_logo.png" alt="">
+					<span>返回顶部</span>
+				</div>
+			</div>
+				
+		</footer>
+	</article>
+	<!-- 面板 -->
+	<aside>
+		<div>
+			<div class="zj_pic"></div>
+			<div>
+				专家在线<br>
+				<a href="">点击问诊></a>	
+			</div>
+		</div>
+		<div>
+			<table>
+				<tbody>
+					<tr>
+						<td><a href="">康复病例</a></td>
+					</tr>
+					<tr>
+						<td><a href="">专家团队</a></td>
+					</tr>
+					<tr>
+						<td><a href="">医院新闻</a></td>
+					</tr>
+					<tr>
+						<td><a href="">费用咨询</a></td>
+					</tr>
+					<tr>
+						<td><a href="">技术设备</a></td>
+					</tr>
+					<tr>
+						<td><a href="">秘密咨询</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div>
+			<div>
+				拨通医院官方电话：<br>
+				400-118-1990	
+			</div>
+			<img src="imgs/logo2.png" alt="">
+		</div>
+	</aside>
+	<div class="null" id="null"></div>
+</body>
+</html>
